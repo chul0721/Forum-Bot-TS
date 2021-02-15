@@ -2,7 +2,7 @@
   "name": "dm-support-bot",
   "version": "1.6.0",
   "description": "Bot",
-  "main": "bot.js",
+  "main": "bot.ts",
   "dependencies": {
     "child_process": "^1.0.2",
     "discord.js": "^12.5.1",
@@ -12,9 +12,12 @@
     "randomstring": "^1.1.5",
     "self-reload-json": "^0.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "esnext": "^3.3.1"
+  },
   "scripts": {
-    "start": "node ."
+    "start": "npx ts-node bot.ts"
   },
   "repository": {
     "type": "git",
