@@ -1,0 +1,32 @@
+{
+  "name": "dm-support-bot",
+  "version": "1.6.0",
+  "description": "Bot",
+  "main": "bot.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "discord.js": "^12.5.1",
+    "dokdo": "github:wonderlandpark/dokdo",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "randomstring": "^1.1.5",
+    "self-reload-json": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pigbot-Official/DM-support-bot.git"
+  },
+  "keywords": [
+    "pigbot"
+  ],
+  "author": "MadeGOD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pigbot-Official/DM-support-bot/issues"
+  },
+  "homepage": "https://github.com/Pigbot-Official/DM-support-bot#readme"
+}
