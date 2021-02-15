@@ -1,7 +1,27 @@
-# **[DM 문의봇을 소개 합니다]**
-* 문의봇을 만드는데 시간이 부족한가요?
-* 아니면 코딩이 어려우신가요?
-그럼 이 완벽한 DM 문의 봇을 체험해보세요.
+# Team Union Forum Manager Bot
 
-## 업데이트를 알고싶다고요?
-[여기를 클릭하여](/releases) 업데이트 정보 지난 업데이트 파일을 받을수있읍니다.
+팀 유니언의 공식 포럼 관리봇의 소스코드입니다!
+
+사용 방법
+-------
+```
+해당 소스는 오픈소스를 사용하고 있으며, 사용 시 제작자인 MadeGOD과 chul0721의 이름을 표시해야 합니다.
+또한 해당 소스를 통한 2차 배포 및 수익 창출을 금지하고 있으며, 적발시 오픈소스의 라이선스에 따른 처벌이 가능합니다.
+```
+
+> # Requirements
+`yarn` or `npm`
+`node`
+
+> # Input on command line
+```
+yarn install
+```
+
+```
+yarn start
+```
+or if ts-node is on command line
+```
+ts-node bot.ts
+```
