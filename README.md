@@ -9,11 +9,11 @@
 또한 해당 소스를 통한 2차 배포 및 수익 창출을 금지하고 있으며, 적발시 오픈소스의 라이선스에 따른 처벌이 가능합니다.
 ```
 
-> # Requirements
+> Requirements
 `yarn` or `npm`
 `node`
 
-> # Input on command line
+> Input on command line
 ```
 yarn install
 ```
