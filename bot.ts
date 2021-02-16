@@ -90,7 +90,8 @@ client.on('message', async msg => {
         .setTimestamp()
       msg.channel.send(welcome)
           .catch((e)=>{
-        Hook.send("에러가 발생\n"+e)
+            
+        Hook.send(Discord.MessageEmbed().setTitle("에러").setColor("RED").setDescription(e.toString()+"."))
           })
         }
     User.save()
